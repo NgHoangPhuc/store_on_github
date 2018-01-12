@@ -1,3 +1,4 @@
+//Just care this
 apply plugin: 'com.android.application'
 
 apply plugin: 'kotlin-android'
@@ -5,13 +6,14 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
 android {
-    compileSdkVersion 26
+    compileSdkVersion 26 //Điều kiện của SDK version
+//    buildToolsVersion "26.0.1"
     defaultConfig {
         applicationId "hoangphucsvmc.com.store_on_github"
         minSdkVersion 15
         targetSdkVersion 26
-        versionCode 1
-        versionName "1.0"
+        versionCode 1       //phiên bản của project
+        versionName "1.0" //phiên bản của project
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
